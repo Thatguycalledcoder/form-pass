@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government of Bahamas Passport form</title>
+</head>
+<body>
+    <form action="">
+        <section>
+            <!-- Application ID -->
+            <input type="number" name="Application_id" placeholder="Application Id">
+
+            <!-- Application Type -->
+            <section>
+                <input type="radio" name="apptype" id="type1" value="Ordinary/Regular">
+                <label for="type1">Ordinary/Regular</label>
+                <input type="radio" name="apptype" id="type2" value="Child">
+                <label for="type1">Child</label>
+                <input type="radio" name="apptype" id="type3" value="Frequent Traveler">
+                <label for="type1">Frequent Traveler</label>
+                <input type="radio" name="apptype" id="type4" value="Certificate of Identity">
+                <label for="type1">Certificate of Identity</label>
+                <input type="radio" name="apptype" id="type5" value="Diplomatic">
+                <label for="type1">Diplomatic</label>
+                <input type="radio" name="apptype" id="type6" value="Official">
+                <label for="type1">Official</label>
+                <input type="radio" name="apptype" id="type7" value="First Time">
+                <label for="type1">First Time</label>
+                <input type="radio" name="apptype" id="type8" value="Renewal">
+                <label for="type1">Renewal</label>
+                <input type="radio" name="apptype" id="type9" value="Damaged/Lost/Stolen">
+                <label for="type1">Damaged/Lost/Stolen</label>
+            </section>
+        </section>
+        
+        <!-- 1. Personal Details -->
+       <section>
+        <h3>1. PERSONAL DETAILS:</h3>
+        <section>
+            <label for="title1">Mr.</label>
+            <input type="radio" name="title" id="title1" value="Mr.">
+            <label for="title2">Mrs.</label>
+            <input type="radio" name="title" id="title2" value="Mrs.">
+            <label for="title3">Miss</label>
+            <input type="radio" name="title" id="title3" value="Miss">
+            <label for="title4">Dr.</label>
+            <input type="radio" name="title" id="title4" value="Dr.">
+            <label for="title5">Other</label>
+            <input type="text" name="othertitle" id="title5" value="Other">
+        </section>
+
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" id="surname" placeholder="Surname">
+
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+
+        <label for="middlename">Middle Name(s)</label>
+        <input type="text" name="middlename" id="middlename" placeholder="Middle Name(s)">
+
+        <label for="surname">Maiden Surname</label>
+        <input type="text" name="surname" id="surname" placeholder="Maiden Surname">
+
+        <label for="birthplace">Place and Country of Birth</label>
+        <input type="text" name="birthplace" id="birthplace" placeholder="Place and Country of Birth">
+
+        <label for="DOB">Date of Birth <em>(DD/MM/YYYY)</em></label>
+        <input type="date" name="DOB" id="DOB" placeholder="Date of Birth (DD/MM/YYYY)">
+
+        <label for="height">Height</label>
+        <input type="number" name="feett" id="height" placeholder="Feet"> ft.
+        <input type="number" name="inches" id="height" placeholder="Inches"> ins.
+
+        <label for="eyecolor">Colour of Eyes</label>
+        <input type="text" name="eyecolor" id="eyecolor" placeholder="Colour of Eyes">
+
+        <label for="haircolor">Colour of Hair</label>
+        <input type="text" name="haircolor" id="haircolor" placeholder="Colour of Hair">
+
+        <label for="nationality">Nationality</label>
+        <input type="text" name="nationality" id="nationality" placeholder="Nationality">
+
+        <label for="identity-marks">Visible Identification Marks (please note in detail)</label>
+        <input type="text" name="identity-marks" id="identity-marks" placeholder="Visible Identification Marks (please note in detail)">
+
+        <label for="national-insurance">National Insurance No.</label>
+        <input type="text" name="national-insurance" id="national-insurance" placeholder="National Insurance No.">
+
+        <section>
+            <h5>Sex</h5>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+        </section>
+       </section>
+
+       <!-- 2. Contact Details -->
+        <section>
+            <h3>2. CONTACT DETAILS:</h3>
+
+            <section>
+                <label for="present-add">Present Address <em>Apt. No. P.O.Box, Street, City, State & Country</em></label>
+                <input name="present-add" id="present-add">
+
+                <label for="permanent-add">Permanent Address <em>Apt. No. P.O.Box, Street, City, State & Country</em></label>
+                <input name="permanent-add" id="permanent-add">
+            </section>
+
+            <section>
+                <label for="telephone">Telephone <em>Home & Work</em> </label>
+                <input type="tel" name="telephone" id="telephone">
+
+                <label for="email">Email <em>(optional)</em> </label>
+                <input type="email" name="email" id="email">
+            </section>
+            
+        </section>
+
+        <!-- 3. Employment Details -->
+        <section>
+            <h3>3. EMPLOYMENT DETAILS:</h3>
+            <label for="occupation">Occupation</label>
+            <input type="text" id="occupation" name="occupation">
+
+            <label for="employer-name">Employer Name <em>(if applicable)</em></label>
+            <input type="text" id="employer-name" name="employer-name">
+
+            <label for="employer-address">Employer Address <em>(if applicable)</em></label>
+            <input type="text" id="employer-address" name="employer-address">
+
+            <label for="employer-telephone">Employer Telephone <em>(if applicable)</em></label>
+            <input type="text" id="employer-telephone" name="employer-telephone">
+        </section>
+
+        <!-- 4. Family Details -->
+        <section>
+            <h3>4. FAMILY DETAILS:</h3>
+            <section>
+                <h4>Father</h4>
+                <label for="father-surname">Surname</label>
+                <input type="text" name="father-surname" id="father-surname">
+
+                <label for="father-othernames">Other Name</label>
+                <input type="text" name="father-othernames" id="father-othernames">
+
+                <label for="father-country">Country of Birth</label>
+                <input type="text" name="father-country" id="father-country">
+
+                <label for="father-nation">Nationality</label>
+                <input type="text" name="father-nation" id="father-nation">
+
+                <label for="father-dob">Date of Birth <em>(DD/MM/YYYY)</em></label>
+                <input type="text" name="father-dob" id="father-dob">
+            </section>
+
+            <section>
+                <h4>Mother</h4>
+                <label for="mother-surname">Surname</label>
+                <input type="text" name="mother-surname" id="mother-surname">
+
+                <label for="mother-othernames">Other Name</label>
+                <input type="text" name="mother-othernames" id="mother-othernames">
+
+                <label for="mother-country">Country of Birth</label>
+                <input type="text" name="mother-country" id="mother-country">
+
+                <label for="mother-nation">Nationality</label>
+                <input type="text" name="mother-nation" id="mother-nation">
+
+                <label for="mother-dob">Date of Birth <em>(DD/MM/YYYY)</em></label>
+                <input type="text" name="mother-dob" id="mother-dob">
+            </section>
+
+            <section>
+                <h4>Spouse</h4>
+                <label for="spouse-surname">Surname</label>
+                <input type="text" name="spouse-surname" id="spouse-surname">
+
+                <label for="spouse-othernames">Other Name</label>
+                <input type="text" name="spouse-othernames" id="spouse-othernames">
+
+                <label for="spouse-country">Country of Birth</label>
+                <input type="text" name="spouse-country" id="spouse-country">
+
+                <label for="spouse-nation">Nationality</label>
+                <input type="text" name="spouse-nation" id="spouse-nation">
+
+                <label for="spouse-dob">Date of Birth <em>(DD/MM/YYYY)</em></label>
+                <input type="text" name="spouse-dob" id="spouse-dob">
+            </section>
+
+            <section>
+                <h4>Person to Contact in case of an emergency</h4>
+                <label for="emergency-name">Name</label>
+                <input type="text" name="emergency-name" id="emergency-name">
+
+                <label for="emergency-relationship">Relationship</label>
+                <input type="text" name="emergency-relationship" id="emergency-relationship">
+
+                <label for="emergency-address">Address</label>
+                <input type="text" name="emergency-address" id="emergency-address">
+
+                <label for="emergency-telephone">Telephone</label>
+                <input type="tel" name="emergency-telephone" id="emergency-telephone">
+            </section>
+        </section>
+
+        <!-- 5. Passport Details -->
+        <section>
+            <h3>5. PASSPORT DETAILS <em>(only for previous passport holders):</em></h3>
+            
+            <section>
+                <label for="bearer-name">Bearer's name at time of issue of previous passport</label>
+                <input type="text" id="bearer-name" name="bearer-name">
+
+                <label for="bearer-passportnum">Passport Number</label>
+                <input type="text" id="bearer-passportnum" name="bearer-passportnum">
+            </section>
+
+           <section>
+                <section>
+                    <h4>Status of Passport</h4>
+
+                    <label for="expired">Expired</label>
+                    <input type="radio" name="PassportStatus" id="expired" value="Expired">
+
+                    <label for="pages-full">Pages Full</label>
+                    <input type="radio" name="PassportStatus" id="pages-full" value="Pages Full">
+
+                    <label for="name-change">Name Change</label>
+                    <input type="radio" name="PassportStatus" id="name-change" value="Name Change">
+
+                    <label for="damaged">Damaged</label>
+                    <input type="radio" name="PassportStatus" id="damaged" value="Damaged">
+
+                    <label for="stolen">Stolen</label>
+                    <input type="radio" name="PassportStatus" id="stolen" value="Stolen">
+
+                    <label for="lost">Lost</label>
+                    <input type="radio" name="PassportStatus" id="lost" value="Lost">
+                </section>
+
+                <label for="date-loststolen">Date Lost/Stolen <em>(DD/MM/YYYY)</em></label>
+                <input type="text" id="date-loststolen" name="date-loststolen">
+
+                <label for="place-loststolen">Place (Island/State/Country/Province), Country where lost/stolen</label>
+                <input type="text" id="place-loststolen" name="place-loststolen" placeholder="Place, Country">
+            </section>
+
+            <section>
+                <section>
+                    <h4>Has loss been reported to police?</h4>
+    
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="loss-option" id="yes" value="Yes">
+    
+                    <label for="no">No</label>
+                    <input type="radio" name="loss-option" id="no" value="No">
+                </section>
+
+                <label for="police-report-station">Police Station</label>
+                <input type="text" name="police-report-station" id="police-report-station">
+
+                <label for="police-report-datereport">Police Date of report</label>
+                <input type="date" name="police-report-datereport" id="police-report-datereport">
+
+                <section>
+                    <h4>Police report submitted?</h4>
+    
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="report-submit-option" id="yes" value="Yes">
+    
+                    <label for="no">No</label>
+                    <input type="radio" name="report-submit-option" id="no" value="No">
+                </section>
+            </section>
+            <!-- End of section -->
+        </section>
+
+        <!-- 6. Additional details -->
+        <section>
+            <h3>6. ADDITIONAL DETAILS:</h3>
+
+            <section>
+                <h4>Applicant a citizen of The Bahamas by:</h4>
+
+                <label for="birth">Birth</label>
+                <input type="radio" name="citizen-origin" id="birth" value="Birth">
+
+                <label for="Registration">Registration</label>
+                <input type="radio" name="citizen-origin" id="Registration" value="Registration">
+
+                <label for="Naturalization">Naturalization</label>
+                <input type="radio" name="citizen-origin" id="Naturalization" value="Naturalization">
+            </section>
+
+            <label for="document-number">Document Number</label>
+            <input type="text" name="document-number" id="document-number">
+
+            <label for="place-of-document-issue">Place of Document Issue</label>
+            <input type="text" name="place-of-document-issue" id="place-of-document-issue">
+
+            <label for="date-of-document-issue">Date of Document Issue</label>
+            <input type="date" name="date-of-document-issue" id="date-of-document-issue">
+            
+            <hr>
+
+            <section>
+                <h4>What other names have you used? <em>(list all alias)</em></h4>
+                1. <input type="text" name="othername1"><br>
+                2. <input type="text" name="othername2"><br>
+                3. <input type="text" name="othername3"><br>
+                4. <input type="text" name="othername4"><br>
+            </section>
+            
+
+            <section>
+                <h4>If name changed, state reason:</h4>
+
+                <label for="Marriage">Marriage</label>
+                <input type="radio" name="name-change-origin" id="Marriage" value="Marriage">
+
+                <label for="Adoption">Adoption</label>
+                <input type="radio" name="name-change-origin" id="Adoption" value="Adoption">
+
+                <label for="Poll Dead">Poll Dead</label>
+                <input type="radio" name="name-change-origin" id="Poll Dead" value="Poll Dead">
+
+                <label for="Other">Other</label>
+                <input type="radio" name="name-change-origin-other" id="Other" value="Other">
+            </section>
+            
+            <hr>
+            <!-- End of section -->
+        </section>
+
+        <!-- 7. To be completed if persons born abroad -->
+        <section>
+            <h3>7. TO BE COMPLETED IF PERSONS BORN ABROAD:</h3>
+            <section>
+                <h4>Mother is a Citizen of The Bahamas by:</h4>
+
+                <label for="birth">Birth</label>
+                <input type="radio" name="mother-citizen-origin" id="birth" value="Birth">
+
+                <label for="Registration">Registration</label>
+                <input type="radio" name="mother-citizen-origin" id="Registration" value="Registration">
+
+                <label for="Naturalization">Naturalization</label>
+                <input type="radio" name="mother-citizen-origin" id="Naturalization" value="Naturalization">
+            </section>
+
+            <label for="mother-document-number">Document Number</label>
+            <input type="text" name="mother-document-number" id="mother-document-number">
+
+            <label for="mother-place-of-document-issue">Place of Document Issue</label>
+            <input type="text" name="mother-place-of-document-issue" id="mother-place-of-document-issue">
+
+            <label for="mother-date-of-document-issue">Date of Document Issue</label>
+            <input type="date" name="mother-date-of-document-issue" id="mother-date-of-document-issue">
+            
+            <hr>
+
+            <section>
+                <h4>Father is a Citizen of The Bahamas by:</h4>
+
+                <label for="birth">Birth</label>
+                <input type="radio" name="father-citizen-origin" id="birth" value="Birth">
+
+                <label for="Registration">Registration</label>
+                <input type="radio" name="father-citizen-origin" id="Registration" value="Registration">
+
+                <label for="Naturalization">Naturalization</label>
+                <input type="radio" name="father-citizen-origin" id="Naturalization" value="Naturalization">
+            </section>
+
+            <label for="father-document-number">Document Number</label>
+            <input type="text" name="father-document-number" id="father-document-number">
+
+            <label for="father-place-of-document-issue">Place of Document Issue</label>
+            <input type="text" name="father-place-of-document-issue" id="father-place-of-document-issue">
+
+            <label for="father-date-of-document-issue">Date of Document Issue</label>
+            <input type="date" name="father-date-of-document-issue" id="mother-date-of-document-issue">
+            
+            <hr>
+
+            <label for="applicant-bahaconsul-register">If applicant's birth was registered at a Bahamian Consulate abroad, state the city where the Consulate is located</label>
+            <input type="text" name="applicant-bahaconsul-register" id="applicant-bahaconsul-register" placeholder="City, Location of Consulate">
+
+            <label for="register-cert-number">Registration Certificate Number</label>
+            <input type="text" name="register-cert-number" id="register-cert-number">
+
+            <label for="register-cert-date">Date of Registration <em>(DD/MM/YYYY)</em></label>
+            <input type="date" name="register-cert-date" id="register-cert-date">
+           
+            <!-- End of section -->
+        </section>
+
+        <!-- 8. To be completed if child is under age 18 -->
+        <section>
+            <h3>8. TO BE COMPLETED IF CHILD IS UNDER AGE 18:</h3>
+
+            <label for="under18-name">Full name <em>(mother, if unmarried; either parent, if married or legal guardian)</em></label>
+            <input type="text" name="under18-name" id="under18-name">
+
+            <label for="under18-child-relation">Relationship to Child</label>
+            <input type="text" name="under18-child-relation" id="under18-child-relation">
+
+            <label for="under18-present-address">Present Address <em>(including country)</em></label>
+            <input type="text" name="under18-present-address" id="under18-present-address">
+
+            <section>
+                <h4>I hereby give my consent for (name of Applicant) to be issued a passport</h4>
+
+                <label for="under18-signature">Signature</label>
+                <input type="text" name="under18-signature" id="under18-signature">
+
+                <label for="under18-signature-date">Date <em>(DD/MM/YYYY)</em></label>
+                <input type="date" name="under18-signature-date" id="under18-signature-date">
+            </section>
+            <!-- End of section -->
+        </section>
+
+        <!-- 9. Declaration of Applicant -->
+        <section>
+            <h3>9. DECLARATION OF APPLICANT: </h3>
+            <p>I, the undersigned, hereby apply ofr the issue of a passport. I declare that the information given in this application 
+                is correct to the best of my knowledge and belief, that I have the status of Bahamian citizen, and that I have not
+                renounced citizenship of The Bahamas. I further declare that:
+            </p>
+
+            <input type="checkbox" id="never-held-or-applied" name="never-held-or-applied" value="I have not previously held or applied for a passport of any description.">
+            <label for="never-held-or-applied">I have not previously held or applied for a passport of any description.</label>
+
+            <input type="checkbox" id="never-held-or-applied" name="never-held-or-applied" value="I have not previously held or applied for a passport of any description.">
+            <label for="never-held-or-applied">All previous passports granted to me have been surrendered, other than this passport or document which is now attached, and that
+                I have submitted no other application for a passport since the attached passport or travel document was issued to me.
+            </label>
+
+            <label for="declare-sign">Signature:</label>
+            <input type="text" name="declare-sign" id="declare-sign">
+
+            <label for="declare-date">Date:</label>
+            <input type="date" name="declare-date" id="declare-date">
+            <!-- End of section -->
+        </section>
+
+        <!-- 10. Countersignature -->
+        <section>
+            <h3>10. COUNTERSIGNATURE: <em>(Required for First Time and Lost or Stolen Applications only)</em></h3>
+
+            <label for="countersign-name">Full Name <em>(please print)</em></label>
+            <input type="text" name="countersign-name" id="countersign-name">
+
+            <label for="countersign-profession">Profession</label>
+            <input type="text" name="countersign-profession" id="countersign-profession">
+
+            <label for="countersign-present-address">Present Address <em>(including country)</em></label>
+            <input type="text" name="countersign-present-address" id="countersign-present-address">
+
+            <p>
+                I certify that the applicant has been known personally to me for <input type="number" name="counter-num-years">
+            years and that to the best of my knowledge and believe the facts stated on this form are correct. I am a citizen of
+            <input type="text" name="counter-citizen"> and I was born at <input type="text" name="counter-place-of-birth">
+            </p>
+
+            <label for="countersign-sign">Signature:</label>
+            <input type="text" name="countersign-sign" id="countersign-sign">
+
+            <label for="countersign-date">Date <em>(DD/MM/YYYY)</em></label>
+            <input type="date" name="countersign-date" id="countersign-date">
+            <!-- End of section -->
+        </section>
+         
+    </form>
+</body>
+</html>
