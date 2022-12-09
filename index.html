@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Government of Bahamas Passport form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
-    <form action="">
+<body class="container">
+    <img src="government bahamas.png" alt="Government of bahamas">
+    <form action="" method="POST" enctype="multipart/form-data">
         <section>
             <!-- Application ID -->
-            <input type="number" name="Application_id" placeholder="Application Id">
+            <div class="text-end">
+                <label for="Application_id">Application ID</label>
+                <input type="number" name="Application_id" id="Application_id" placeholder="Application Id">
+            </div>
 
             <!-- Application Type -->
             <section>
@@ -60,11 +65,11 @@
         <label for="middlename">Middle Name(s)</label>
         <input type="text" name="middlename" id="middlename" placeholder="Middle Name(s)">
 
-        <label for="surname">Maiden Surname</label>
-        <input type="text" name="surname" id="surname" placeholder="Maiden Surname">
+        <label for="maiden_surname">Maiden Surname</label>
+        <input type="text" name="maiden_surname" id="maiden_surname" placeholder="Maiden Surname">
 
         <label for="birthplace">Place and Country of Birth</label>
-        <input type="text" name="birthplace" id="birthplace" placeholder="Place and Country of Birth">
+        <input type="text" name="birthplace" id="birthplace" placeholder="Place, Country of Birth">
 
         <label for="DOB">Date of Birth <em>(DD/MM/YYYY)</em></label>
         <input type="date" name="DOB" id="DOB" placeholder="Date of Birth (DD/MM/YYYY)">
@@ -103,10 +108,10 @@
 
             <section>
                 <label for="present-add">Present Address <em>Apt. No. P.O.Box, Street, City, State & Country</em></label>
-                <input name="present-add" id="present-add">
+                <input type="text" name="present-add" id="present-add">
 
                 <label for="permanent-add">Permanent Address <em>Apt. No. P.O.Box, Street, City, State & Country</em></label>
-                <input name="permanent-add" id="permanent-add">
+                <input type="text" name="permanent-add" id="permanent-add">
             </section>
 
             <section>
@@ -153,7 +158,7 @@
                 <input type="text" name="father-nation" id="father-nation">
 
                 <label for="father-dob">Date of Birth <em>(DD/MM/YYYY)</em></label>
-                <input type="text" name="father-dob" id="father-dob">
+                <input type="date" name="father-dob" id="father-dob">
             </section>
 
             <section>
@@ -244,7 +249,7 @@
                 </section>
 
                 <label for="date-loststolen">Date Lost/Stolen <em>(DD/MM/YYYY)</em></label>
-                <input type="text" id="date-loststolen" name="date-loststolen">
+                <input type="date" id="date-loststolen" name="date-loststolen">
 
                 <label for="place-loststolen">Place (Island/State/Country/Province), Country where lost/stolen</label>
                 <input type="text" id="place-loststolen" name="place-loststolen" placeholder="Place, Country">
@@ -436,8 +441,8 @@
             <input type="checkbox" id="never-held-or-applied" name="never-held-or-applied" value="I have not previously held or applied for a passport of any description.">
             <label for="never-held-or-applied">I have not previously held or applied for a passport of any description.</label>
 
-            <input type="checkbox" id="never-held-or-applied" name="never-held-or-applied" value="I have not previously held or applied for a passport of any description.">
-            <label for="never-held-or-applied">All previous passports granted to me have been surrendered, other than this passport or document which is now attached, and that
+            <input type="checkbox" id="declaration_no" name="declaration_no" value="I have not previously held or applied for a passport of any description.">
+            <label for="declaration_no">All previous passports granted to me have been surrendered, other than this passport or document which is now attached, and that
                 I have submitted no other application for a passport since the attached passport or travel document was issued to me.
             </label>
 
