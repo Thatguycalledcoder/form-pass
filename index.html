@@ -7,10 +7,20 @@
     <title>Government of Bahamas Passport form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body class="container mb-5">
-    <img src="government bahamas.png" alt="Government of bahamas">
-    <form action="" method="POST" enctype="multipart/form-data" class="mb-5">
-        <section>
+<style>
+    label {
+        font-weight: bold;
+    }
+</style>
+<body class="">
+    <header class="container">
+        <img src="government bahamas.png" alt="Government of bahamas">
+        <div class="text-center container">
+            <h1><u> Bahamas Passport Application Form </u></h1>
+        </div>
+    </header>
+    <form action="getinfo.php" method="POST" enctype="multipart/form-data" class="mb-5" style="position: relative; z-index: 4;">
+        <section class="container">
             <!-- Application ID -->
             <div class="mb-3">
                 <strong><u>For official use only</u></strong>
@@ -48,9 +58,10 @@
                 <label class="me-2" for="type1">Damaged/Lost/Stolen</label>
             </section>
         </section>
+        <main style="background: url('bg-passport.jpg'); background-position: 0px 510px; background-color: rgba(0, 0, 0, 0.1);">
         <hr>
         <!-- 1. Personal Details -->
-       <section class="my-3">
+       <section class="my-3 container">
         <h3>1. PERSONAL DETAILS:</h3>
         <section class="my-3">
             <input type="radio" name="title" id="title1" value="Mr.">
@@ -147,7 +158,7 @@
        <hr>
 
        <!-- 2. Contact Details -->
-        <section>
+        <section class="container">
             <h3>2. CONTACT DETAILS:</h3>
             <section class="row mb-3">
                 <div class="col">
@@ -174,7 +185,7 @@
         </section>
         <hr>
         <!-- 3. Employment Details -->
-        <section>
+        <section class="container">
             <h3>3. EMPLOYMENT DETAILS:</h3>
             <div class="row mb-3">
                 <div class="col">
@@ -196,7 +207,7 @@
         </section>
         <hr>
         <!-- 4. Family Details -->
-        <section class="my-4">
+        <section class="my-4 container">
             <h3>4. FAMILY DETAILS:</h3>
             <section class="row mb-4">
                 <h4>Father</h4>
@@ -301,7 +312,7 @@
         </section>
         <hr>
         <!-- 5. Passport Details -->
-        <section class="my-3">
+        <section class="my-3 container">
             <h3>5. PASSPORT DETAILS <em>(only for previous passport holders):</em></h3>
             
             <section class="row mb-3">
@@ -379,7 +390,7 @@
         </section>
         <hr>
         <!-- 6. Additional details -->
-        <section class="my-3">
+        <section class="my-3 container">
             <h3>6. ADDITIONAL DETAILS:</h3>
             <div class="row mb-3">
                 <section class="col form-control">
@@ -438,7 +449,7 @@
         <hr>
 
         <!-- 7. To be completed if persons born abroad -->
-        <section class="my-3">
+        <section class="my-3 container">
             <h3>7. TO BE COMPLETED IF PERSONS BORN ABROAD:</h3>
             <div class="row my-4">
                 <h5>Mother</h5>
@@ -515,7 +526,7 @@
 
         <hr>
         <!-- 8. To be completed if child is under age 18 -->
-        <section>
+        <section class="container">
             <h3>8. TO BE COMPLETED IF CHILD IS UNDER AGE 18:</h3>
             <div class="row">
                 <div class="col">
@@ -552,7 +563,7 @@
         <hr>
 
         <!-- 9. Declaration of Applicant -->
-        <section>
+        <section class="container">
             <h3>9. DECLARATION OF APPLICANT: </h3>
             <p>I, the undersigned, hereby apply for the issue of a passport. I declare that the information given in this application 
                 is correct to the best of my knowledge and belief, that I have the status of Bahamian citizen, and that I have not
@@ -562,7 +573,7 @@
             <input type="checkbox" id="never-held-or-applied" name="never-held-or-applied" value="I have not previously held or applied for a passport of any description.">
             <label for="never-held-or-applied">I have not previously held or applied for a passport of any description.</label><br>
 
-            <input type="checkbox" id="declaration_no" name="declaration_no" value="I have not previously held or applied for a passport of any description.">
+            <input type="checkbox" id="declaration_no" name="declaration_no" value="All previous passports granted to me have been surrendered, other than this passport or document which is now attached, and that I have submitted no other application for a passport since the attached passport or travel document was issued to me.">
             <label for="declaration_no">All previous passports granted to me have been surrendered, other than this passport or document which is now attached, and that
                 I have submitted no other application for a passport since the attached passport or travel document was issued to me.
             </label>
@@ -583,7 +594,7 @@
         <hr>
 
         <!-- 10. Countersignature -->
-        <section class="my-4">
+        <section class="my-4 container">
             <h3>10. COUNTERSIGNATURE: <em>(Required for First Time and Lost or Stolen Applications only)</em></h3>
 
             <div class="row">
@@ -621,7 +632,10 @@
             <!-- End of section -->
         </section>
          
-        <button class="btn btn-success mb-5">Save and Continue</button>
+        <div class="container">
+            <button class="btn btn-success mb-5">Save and Continue</button>
+        </div>
+    </main>
     </form>
 </body>
 </html>
